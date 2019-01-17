@@ -11,8 +11,10 @@ class App extends Component {
         <header className="App-header">
           <Frontpage />
         </header>
-        <FSheep />
-        <FShip />
+        <div className="sheep_ship">
+          <FSheep />
+          <FShip />
+        </div>
       </div>
     );
   }

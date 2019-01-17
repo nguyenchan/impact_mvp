@@ -36,3 +36,10 @@
 .FSheep_wrapper {
   background-color: #bdfabd;
 }
+
+.sheep_ship {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  width: 200vw;
+}
