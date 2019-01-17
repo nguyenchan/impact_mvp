@@ -3,6 +3,7 @@ import Speaker from "../_icons/Icon_speaker.png";
 import Mic from "../_icons/Icon_microphone.png";
 import SheepPic from "../_icons/sheep_.png";
 import "./FSheep.css";
+import { Icon } from "antd";
 
 export default function FSheep() {
   return (
@@ -17,6 +18,13 @@ export default function FSheep() {
         <div className="blank_space_v" />
         <img src={Speaker} alt="speaker" className="FSheep_speak" />
       </div>
+      <div className="blank_space" />
+      <div className="blank_space" />
+      <div className="blank_space" />
+      <div className="blank_space" />
+      <a href="/ship">
+        <Icon type="right-circle" />
+      </a>
     </div>
   );
 }

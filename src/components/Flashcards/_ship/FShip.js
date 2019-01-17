@@ -3,6 +3,7 @@ import Speaker from "../_icons/Icon_speaker.png";
 import Mic from "../_icons/Icon_microphone.png";
 import ShipPic from "../_icons/ship_.png";
 import "./FShip.css";
+import { Icon } from "antd";
 
 export default function FShip() {
   return (
@@ -17,6 +18,16 @@ export default function FShip() {
         <div className="blank_space_v" />
         <img src={Speaker} alt="speaker" className="FShip_speak" />
       </div>
+      <div className="blank_space" />
+      <div className="blank_space" />
+      <div className="blank_space" />
+      <div className="blank_space" />
+      <a href="/sheep">
+        <Icon type="right-circle" />
+      </a>
+      <a href="/">
+        <Icon type="home" />
+      </a>
     </div>
   );
 }
