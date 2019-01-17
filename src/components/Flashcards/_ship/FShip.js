@@ -7,25 +7,29 @@ import { Icon } from "antd";
 
 export default function FShip() {
   return (
-    <div className="FShip_wrapper">
-      <img src={ShipPic} alt="ship" />
-      <div className="FShip_eng">Ship</div>
-      <div className="blank_space" />
-      <div className="FShip_vie">Con tàu</div>
-      <div className="blank_space" />
-      <div className="FShip_btn">
-        <img src={Mic} alt="microphone" className="FShip_record" />
-        <div className="blank_space_v" />
-        <img src={Speaker} alt="speaker" className="FShip_speak" />
+    <div>
+      <div className="FShip_wrapper">
+        <img src={ShipPic} alt="ship" />
+        <div className="FShip_eng">Ship</div>
+        <div className="blank_space" />
+        <div className="FShip_vie">Con tàu</div>
+        <div className="blank_space" />
+        <div className="blank_space" />
+        <div className="blank_space" />
+        <div className="FShip_btn">
+          <img src={Mic} alt="microphone" className="FShip_record" />
+          <div className="blank_space_v" />
+          <img src={Speaker} alt="speaker" className="FShip_speak" />
+        </div>
+        <div className="blank_space" />
+        <div className="blank_space" />
+        <div className="blank_space" />
+        <div className="blank_space" />
       </div>
-      <div className="blank_space" />
-      <div className="blank_space" />
-      <div className="blank_space" />
-      <div className="blank_space" />
-      <a href="/sheep">
+      <a href="/sheep" className="next_btn">
         <Icon type="right-circle" />
       </a>
-      <a href="/">
+      <a href="/" className="home_btn">
         <Icon type="home" />
       </a>
     </div>

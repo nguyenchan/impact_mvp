@@ -7,23 +7,30 @@ import { Icon } from "antd";
 
 export default function FSheep() {
   return (
-    <div className="FSheep_wrapper">
-      <img src={SheepPic} alt="sheep" />
-      <div className="FSheep_eng">Sheep</div>
-      <div className="blank_space" />
-      <div className="FSheep_vie">Con cừu</div>
-      <div className="blank_space" />
-      <div className="FSheep_btn">
-        <img src={Mic} alt="microphone" className="FSheep_record" />
-        <div className="blank_space_v" />
-        <img src={Speaker} alt="speaker" className="FSheep_speak" />
+    <div>
+      <div className="FSheep_wrapper">
+        <img src={SheepPic} alt="sheep" />
+        <div className="FSheep_eng">Sheep</div>
+        <div className="blank_space" />
+        <div className="FSheep_vie">Con cừu</div>
+        <div className="blank_space" />
+        <div className="blank_space" />
+        <div className="blank_space" />
+        <div className="FSheep_btn">
+          <img src={Mic} alt="microphone" className="FSheep_record" />
+          <div className="blank_space_v" />
+          <img src={Speaker} alt="speaker" className="FSheep_speak" />
+        </div>
+        <div className="blank_space" />
+        <div className="blank_space" />
+        <div className="blank_space" />
+        <div className="blank_space" />
       </div>
-      <div className="blank_space" />
-      <div className="blank_space" />
-      <div className="blank_space" />
-      <div className="blank_space" />
-      <a href="/ship">
+      <a href="/ship" className="next_btn">
         <Icon type="right-circle" />
+      </a>
+      <a href="/" className="home_btn">
+        <Icon type="home" />
       </a>
     </div>
   );

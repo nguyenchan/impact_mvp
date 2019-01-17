@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One");
+
 .FShip_wrapper {
   height: 100vh;
   width: 100vw;
@@ -8,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  /* font-size: 40px; */
   background-color: #bddffa;
 }
 
@@ -18,9 +21,49 @@
 }
 
 .blank_space {
-  height: 15px;
+  height: 20px;
 }
 
 .blank_space_v {
-  width: 30px;
+  width: 90px;
+}
+
+.FShip_eng {
+  font-family: "Fredoka One", cursive;
+  font-size: 45px;
+}
+
+.FShip_vie {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.next_btn {
+  font-size: 40px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.home_btn {
+  font-size: 40px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+.FShip_speak {
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  padding: 3px;
+}
+
+.FShip_record {
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  padding: 3px;
 }
