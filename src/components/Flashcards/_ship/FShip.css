@@ -1,4 +1,4 @@
-.FSheep_wrapper {
+.FShip_wrapper {
   height: 100vh;
   width: 100vw;
   margin: 0;
@@ -9,9 +9,10 @@
   justify-content: center;
   align-items: center;
   font-size: 40px;
+  background-color: #bddffa;
 }
 
-.FSheep_btn {
+.FShip_btn {
   display: flex;
   flex-direction: row;
 }

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import Frontpage from "./components/Frontpage/Frontpage";
 import FSheep from "./components/Flashcards/_sheep/FSheep";
+import FShip from "./components/Flashcards/_ship/FShip";
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
           <Frontpage />
         </header>
         <FSheep />
+        <FShip />
       </div>
     );
   }
