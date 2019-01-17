@@ -1,6 +1,6 @@
 import React from "react";
 import "./Frontpage.css";
-import logo from "../logo.svg";
+import logo from "../../logo.svg";
 
 export default function Frontpage() {
   return (
