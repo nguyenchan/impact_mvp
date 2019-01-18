@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Yeseva+One");
+
 .frontpage_wrapper {
   padding: 0;
   margin: 0;
@@ -9,17 +11,28 @@
   justify-content: center;
   align-items: center;
   font-size: 50px;
+  background-color: #fff6bf;
+  position: relative;
 }
 
 ._title {
-  font-family: avenir-lt-w01_85-heavy1475544, sans-serif;
+  font-family: "Yeseva One", cursive;
   font-size: 55px;
   padding: 0;
   margin: 0;
 }
 
 ._logo {
-  transform: rotate(-90deg);
-  width: 120px;
+  /* transform: rotate(-90deg); */
+  width: auto;
   height: 120px;
+}
+
+.btn_play {
+  position: absolute;
+  bottom: 30px;
+}
+
+.blank {
+  height: 15px;
 }
