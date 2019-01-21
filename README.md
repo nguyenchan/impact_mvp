@@ -1,3 +1,8 @@
+# Herb app
+
+- app teaching Eng pronunciation for kid.
+- making for Impact startup challenge SUSS - TRIVE (14 - 18 Jan 2019)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
